@@ -1,0 +1,16 @@
+import 'package:flutter/material.dart';
+
+//main function to start a flutter app
+void main() {
+  runApp(
+    MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text('I Am Rich'),
+          backgroundColor: Colors.blueGrey[900],
+        ),
+        backgroundColor: Colors.blueGrey,
+      ),
+    ),
+  );
+}
